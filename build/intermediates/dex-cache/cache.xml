@@ -2,18 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/pre-dexed/debug/classes-4c0fc12f99de9e61de55d8121763a4920b2ed178.jar" />
-    </item>
-    <item
-        jar="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jar="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge-Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
         sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/pre-dexed/debug/classes-30e815aca8d78d0b8ffa024e9cea89e96c1285e2.jar" />
+        <dex dex="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge-Android/app/build/intermediates/pre-dexed/debug/classes-e485fd6dcd50b99f9cb7eedfb7960c12868a6fe6.jar" />
+    </item>
+    <item
+        jar="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/pre-dexed/debug/classes-3f098d7e420bff66c4949a07776c9afe4aa2e6ac.jar" />
+    </item>
+    <item
+        jar="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge-Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge-Android/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-8a3325547381430909680cc7bba43d571cfde4a3.jar" />
+    </item>
+    <item
+        jar="/home/parth/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-e8e4cb422eefe3e8a6a322dc144d7c88db533da1.jar" />
+    </item>
+    <item
+        jar="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge-Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge-Android/app/build/intermediates/pre-dexed/debug/classes-4239eb65a8c35d5134b40f111c76ac11c8d8c9fb.jar" />
     </item>
     <item
         jar="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
@@ -23,11 +44,53 @@
         <dex dex="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-290a8c63187b2e650754dba9c316b969fa6193cd.jar" />
     </item>
     <item
-        jar="/home/parth/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jar="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-e8e4cb422eefe3e8a6a322dc144d7c88db533da1.jar" />
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/pre-dexed/debug/classes-30e815aca8d78d0b8ffa024e9cea89e96c1285e2.jar" />
+    </item>
+    <item
+        jar="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge-Android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge-Android/app/build/intermediates/pre-dexed/debug/classes-04aa3f43d09fbd5c258e192f07a90e54b02ff989.jar" />
+    </item>
+    <item
+        jar="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge-Android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge-Android/app/build/intermediates/pre-dexed/debug/classes-926184599c0aae2408c4be1690085002ae2be526.jar" />
+    </item>
+    <item
+        jar="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/pre-dexed/debug/classes-4c0fc12f99de9e61de55d8121763a4920b2ed178.jar" />
+    </item>
+    <item
+        jar="/home/parth/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-eb936b3b6ec82518dd65b95bf7c822e68cf24a78.jar" />
+    </item>
+    <item
+        jar="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/pre-dexed/debug/classes-f6849c2c7f002bc068b343a1aa43aeac5361f4d6.jar" />
+    </item>
+    <item
+        jar="/home/parth/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/parth/dev/AndroidStudioProjects/Guarded-Ridge/app/build/intermediates/pre-dexed/debug/gson-2.3.1-b2e40faed771090e69d03a94e4928b80283a8037.jar" />
     </item>
 
 </items>
