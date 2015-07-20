@@ -4,3 +4,10 @@ This is an app I am creating as a part of my Android learning target.
 The app will demonstrate basic CRUD operations.    
      
 The backend is hooked with apis created in the web version of this project.    
+ Adding todos here: 
+ 
+ - [ ] Todo 1 
+ - [x] Todo 2 
+ 
+Next
+- [ ] Todo 3 
