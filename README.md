@@ -17,6 +17,7 @@ Initial phase
 Phase 2 
 - [ ] Linkify bookmarks: Clicking it should open in webview or chrome.
 - [ ] Add login once its available in web version.
+- [ ] Add lazy loading to list.
 
 
 Phase 3 
