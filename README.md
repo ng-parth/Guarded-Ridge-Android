@@ -22,3 +22,4 @@ Phase 2
 
 Phase 3 
 - [ ] Add other modules: notes/pwd bank etc.
+- [ ] Create a chrome extention to add and search bookmark.
