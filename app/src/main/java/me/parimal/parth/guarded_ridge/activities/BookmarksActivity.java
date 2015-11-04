@@ -3,6 +3,7 @@ package me.parimal.parth.guarded_ridge.activities;
 import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -10,9 +11,11 @@ import android.widget.Toast;
 
 import me.parimal.parth.guarded_ridge.fragments.BookmarksActivityFragment;
 import me.parimal.parth.guarded_ridge.R;
+import me.parimal.parth.guarded_ridge.fragments.UpsertBookmarkFragment;
+import me.parimal.parth.guarded_ridge.services.ChangeFragment;
 
 
-public class BookmarksActivity extends Activity {
+public class BookmarksActivity extends Activity implements ChangeFragment {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -47,4 +50,21 @@ public class BookmarksActivity extends Activity {
 
     return super.onOptionsItemSelected(item);
   }
+
+  @Override
+  public void onChangeFragmentListener(String id, String src) {
+//    Toast.makeText(getApplicationContext(), "Changing fragment from activity. Id = "+id, Toast.LENGTH_SHORT).show();
+    FragmentTransaction ft = getFragmentManager().beginTransaction();
+    if (!id.isEmpty() && "BookmarkList".equals(src)) {
+      UpsertBookmarkFragment upsertBookmarkFragment= new UpsertBookmarkFragment();
+      Bundle bundle = new Bundle();
+      bundle.putString("_id", id);
+      upsertBookmarkFragment.setArguments(bundle);
+      ft.replace(R.id.bmListFragment, upsertBookmarkFragment)
+          .addToBackStack("bookmarkList")
+          .commit();
+    }
+
+  }
+
 }

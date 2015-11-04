@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
@@ -43,15 +44,25 @@ public class BookmarksActivityFragment extends Fragment {
     final List<Bookmark> bmList = new ArrayList<>();
     final String BASE_URL = "https://guarded-ridge-6883.herokuapp.com";
     final BookmarkListAdapter bookmarkListAdapter;
-    bookmarkListAdapter = new BookmarkListAdapter(getActivity().getApplicationContext(), R.layout.layout_bookmarks,bmList );
+    bookmarkListAdapter = new BookmarkListAdapter(getActivity(), R.layout.layout_bookmarks, bmList );
     bmListView.setAdapter(bookmarkListAdapter);
-    bmListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-      @Override
-      public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Bookmark bm = bmList.get(position);
-        Toast.makeText(getActivity().getApplicationContext(),"Link "+ (position +1 )+ ": " + bm.getLink(), Toast.LENGTH_SHORT).show();
-      }
-    });
+
+//    bmListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//      @Override
+//      public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//        Bookmark bm = bmList.get(position);
+//        Toast.makeText(getActivity().getApplicationContext(), "Link " + (position + 1) + ": " + bm.getLink(), Toast.LENGTH_SHORT).show();
+//      }
+//    });
+
+
+//    bmListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+//      @Override
+//      public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+//        Toast.makeText(getActivity().getApplicationContext(), "I wish to add a context menu.", Toast.LENGTH_SHORT).show();
+//        return false;
+//      }
+//    });
 
     RestAdapter restAdapter = new RestAdapter.Builder()
         .setEndpoint(BASE_URL)
@@ -67,7 +78,7 @@ public class BookmarksActivityFragment extends Fragment {
 
       @Override
       public void failure(RetrofitError error) {
-        Log.e("Service Error: ", error.getMessage());
+        Log.e("Service Error- ","@BookmarkActivityFragment :"+ error.getMessage());
         Toast.makeText(getActivity().getApplicationContext(), "Failed to load bookmarks. Try again later.", Toast.LENGTH_SHORT).show();
       }
     });

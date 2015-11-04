@@ -1,10 +1,13 @@
 package me.parimal.parth.guarded_ridge.models;
 
+import java.util.UUID;
+
 /**
  * Created by parth on 23/6/15.
  */
 public class Bookmark {
 
+  private String _id;
   private String title;
   private String link;
   private String tags;
@@ -52,6 +55,15 @@ public class Bookmark {
   public void setActive(boolean active) {
     this.active = active;
   }
+
+  public String get_id() {
+    return _id;
+  }
+
+  public void set_id(String _id) {
+    this._id = _id;
+  }
+
 
 
   @Override

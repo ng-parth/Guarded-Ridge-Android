@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@android:color/holo_blue_light"
+              tools:context="me.parimal.parth.guarded_ridge.fragments.UpsertBookmarkFragment">
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"/>
+    <EditText
+        android:id="@+id/editLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Link"/>
+    <EditText
+        android:id="@+id/editTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tags"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/upsertBookmarkBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:layout_margin="5dp"
+            android:text="Add Bookmark"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:layout_margin="5dp"
+            android:text="Cancel"/>
+    </LinearLayout>
+</LinearLayout>
