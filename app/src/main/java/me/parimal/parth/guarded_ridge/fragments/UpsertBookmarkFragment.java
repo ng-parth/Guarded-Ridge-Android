@@ -39,7 +39,7 @@ public class UpsertBookmarkFragment extends Fragment {
                            Bundle savedInstanceState) {
     // Inflate the layout for this fragment
     View view = inflater.inflate(R.layout.fragment_upsert_bookmark, container, false);
-    final String BASE_URL = "https://guarded-ridge-6883.herokuapp.com";
+    final String BASE_URL = "https://save-my-links.herokuapp.com";
     final EditText editTitle = (EditText) view.findViewById(R.id.editTitle);
     final EditText editLink = (EditText) view.findViewById(R.id.editLink);
     final EditText editTag = (EditText) view.findViewById(R.id.editTag);

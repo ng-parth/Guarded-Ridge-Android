@@ -42,7 +42,7 @@ public class BookmarksActivityFragment extends Fragment {
     View view = inflater.inflate(R.layout.fragment_bookmarks, container, false);
     final ListView bmListView = (ListView) view.findViewById(R.id.listview);
     final List<Bookmark> bmList = new ArrayList<>();
-    final String BASE_URL = "https://guarded-ridge-6883.herokuapp.com";
+    final String BASE_URL = "https://save-my-links.herokuapp.com";
     final BookmarkListAdapter bookmarkListAdapter;
     bookmarkListAdapter = new BookmarkListAdapter(getActivity(), R.layout.layout_bookmarks, bmList );
     bmListView.setAdapter(bookmarkListAdapter);

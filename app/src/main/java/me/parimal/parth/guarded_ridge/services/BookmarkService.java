@@ -20,7 +20,7 @@ import retrofit.http.Query;
  * Created by parth on 23/6/15.
  */
 public interface BookmarkService {
-  public String BASE_URL = "https://guarded-ridge-6883.herokuapp.com";
+  public String BASE_URL = "https://save-my-links.herokuapp.com";
   public String URL = "/api/bookmark";
 
 //  @GET(URL)
